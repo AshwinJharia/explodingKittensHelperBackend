@@ -13,7 +13,7 @@ func main() {
 
 	// Configure CORS
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:5174", "http://localhost:5173"}, // Replace with your allowed origins
+		AllowOrigins:     []string{"http://localhost:5174", "http://localhost:5173", "https://exploding-kittens-59u8d8ci6-ashwin-jharias-projects.vercel.app/"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Accept", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
